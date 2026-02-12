@@ -1,6 +1,6 @@
-# digital-fuesim-manv-public-test-scenarios
+# FüSim Digital: Public Test Scenarios
 
-Public test scenarios for the [Digital Fuesim MANV project](https://github.com/hpi-sam/digital-fuesim-manv/), you are welcome to add test scenarios via pull requests to this repo.
+Public test scenarios for the [FüSim Digital project](https://github.com/hpi-sam/fuesim-digital/), you are welcome to add test scenarios via pull requests to this repo.
 
 The subfolder migration-test-scenarios contains test scenarios that should be migratable.
 
