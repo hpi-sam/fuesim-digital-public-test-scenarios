@@ -10,11 +10,10 @@ These folders contain up to three different folders named `combined-scenarios`, 
 
 Those folders contain the actual exports. Things in these folders named starting with EXCLUDE-FROM-TEST will not be tested.
 
-Please use a name that describes what happened in the scenario and add a -complete or -current at the end depending on whether the
-export was a full export or an export of the current state.
+Please use a name that describes what happened in the scenario and use complete exports (including history) if possible.
 
-The resulting naming scheme is: `./migration-test-scenarios/from-state-[stateVersion]/[combined-scenarios | one-action | state-altering-ui]/test-name-[complete | current]`
+The resulting naming scheme is: `./migration-test-scenarios/from-state-[stateVersion]/[combined-scenarios | one-action | state-altering-ui]/test-name.json`
 
-Please do not create folders without exercises in them.
+Please do not create folders without test scenarios in them.
 
-The files do not need to be formatted in a particular but it is also fine if they are.
+The files do not need to be formatted in a particular way, but it is also fine if they are.
